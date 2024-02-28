@@ -1,0 +1,28 @@
+@media screen and (max-width: 640px) {
+    main {
+        width: 50%;
+        
+        padding: 2.5%; 
+    }
+
+
+    #barreLecture {
+        height: 40px;
+    }
+
+
+    .barre {
+        height: 3px;
+    }
+
+
+        #boutons {
+            margin-bottom: 7px;
+        }
+
+    
+        button {
+            height: 45px;
+            width: 45px;
+        }
+}
