@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background: url('img/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+    
+main {
+    height: auto;
+    width: 25%;
+    
+    padding: 1.5%; 
+
+    border-radius: 25px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background: rgb(33,41,54);
+    background: linear-gradient(45deg, rgba(33, 41, 54, 0.5) 0%, rgba(0,0,0,0.5) 100%);
+}
+    #image {
+        width: 100%;
+
+        border-radius: 25px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 0 4%;
+    }
+
+    #titre, #auteur {
+        padding: 2px;
+        text-align: center;
+    }
+
+    #titre {
+        font-size: 16px;
+        color:#E5E7EB;
+    }
+
+    #auteur {
+        font-size: 12px;
+        font-weight: 500;
+        color:#4D5562;
+    }
+
+    #barreLecture {
+        margin: 2% 0 7%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        height: 50px;
+        width: 100%;
+    }
+        .temps {
+            width: 100%;
+            margin: 7px;
+
+            font-size: 10px;
+            font-weight: 500;
+            color:#4D5562;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .barre {
+            -webkit-appearance: none;
+
+            width: 100%;
+            height: 4px;
+
+            overflow: hidden;
+
+            cursor: pointer;
+
+            border-radius: 10px;
+        }
+        .barre::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            background-color: #C93B76;
+
+            width: 1px;
+            height: 10px;
+
+            border-radius: 10px;
+
+            box-shadow: -400px 0 0 400px #C93B76;
+        }
+
+    #boutons {
+        height: 50px;
+        width: 60%;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: end;
+    }
+        button {
+            height: 50px;
+            width: 50px;
+
+            border: none;
+            background-color: transparent;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .playStop {
+            border-radius: 50px;
+            background-color: #C93B76;
+        }
+            .button {
+                width: 80%;
+                cursor: pointer;
+            }
